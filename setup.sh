@@ -46,4 +46,4 @@ sleep 3
 visudo
 pacman -S --noconfirm --needed dhcpcd
 systemctl enable dhcpcd
-sudo systemctl enable NetworkManager
+#sudo systemctl enable NetworkManager
