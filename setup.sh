@@ -34,6 +34,7 @@ usermod -aG wheel,audio,video,optical,storage,sys aza
 #pacman -S --noconfirm --needed git
 sh reflector.sh
 pacman -S --noconfirm --needed xdg-user-dirs
+pacman -S --noconfirm --needed nano
 pacman -S --noconfirm --needed grub
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
