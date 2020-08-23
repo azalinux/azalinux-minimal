@@ -36,6 +36,7 @@ sh reflector.sh
 pacman -S --noconfirm --needed xdg-user-dirs
 pacman -S --noconfirm --needed nano
 pacman -S --noconfirm --needed grub
+pacman -S --noconfirm --needed dosfstools
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 pacman -S --noconfirm --needed base-devel
