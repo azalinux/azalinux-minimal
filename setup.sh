@@ -37,7 +37,7 @@ pacman -S --noconfirm --needed xdg-user-dirs
 pacman -S --noconfirm --needed nano
 pacman -S --noconfirm --needed grub
 pacman -S --noconfirm --needed dosfstools
-pacman -S efibootmgr
+pacman -S --noconfirm --needed efibootmgr
 # FOR UEFI create /efi partition - FAT32 - 512Mb
 #mkfs.fat -F32 /dev/sdb1
 # You have to mount the EFI partition then create the 'efi' directory on it!
