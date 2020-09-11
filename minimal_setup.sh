@@ -62,7 +62,7 @@ sudo pacman -S system-config-printer --noconfirm --needed
 
 sudo systemctl enable org.cups.cupsd.service
 
-
+sudo pacman -S --noconfirm --needed vi
 sudo pacman -S --noconfirm --needed p7zip
 #sudo pacman -S --noconfirm --needed flameshot
 sudo pacman -S --noconfirm --needed smartmontools
