@@ -60,7 +60,7 @@ sudo pacman -S libcups --noconfirm --needed
 sudo pacman -S hplip --noconfirm --needed
 sudo pacman -S system-config-printer --noconfirm --needed
 
-sudo systemctl enable org.cups.cupsd.service
+sudo systemctl enable cups.service
 
 sudo pacman -S --noconfirm --needed vi
 sudo pacman -S --noconfirm --needed p7zip
